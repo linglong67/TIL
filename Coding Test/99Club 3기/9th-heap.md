@@ -28,7 +28,7 @@
       return count;
   }
   ```
-  - PriorityQueue을 사용한 최소힙으로 해결
+  - PriorityQueue를 사용한 최소힙으로 해결
 
 ### 오늘의 회고
     - Java에서 힙 자료구조를 구현한 PriorityQueue에 대해 먼저 간단히 공부한 후, 문제를 풀어서 비교적 쉽게 접근할 수 있었다.
