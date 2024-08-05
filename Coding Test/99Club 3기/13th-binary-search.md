@@ -4,7 +4,7 @@
 - 이분탐색
 
 ### 오늘의 문제
-- 프로그래머스 → [숫자 카드](https://www.acmicpc.net/problem/10815)
+- 백준 → [숫자 카드](https://www.acmicpc.net/problem/10815)
 
 ### 풀이 접근 방식
 - M개의 숫자카드를 정렬한 후, Map과 Arrays.binarySearch 이용 

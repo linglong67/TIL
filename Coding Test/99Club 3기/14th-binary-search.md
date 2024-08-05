@@ -4,7 +4,7 @@
 - 이분탐색
 
 ### 오늘의 문제
-- 프로그래머스 → [숫자 카드 2](https://www.acmicpc.net/problem/10816)
+- 백준 → [숫자 카드 2](https://www.acmicpc.net/problem/10816)
 
 ### 풀이 접근 방식
 - Map에 N개의 숫자 카드별 개수를 저장 후 키를 정렬 → M개의 숫자에 대해 이분탐색 진행
