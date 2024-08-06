@@ -10,7 +10,7 @@
 - 1차 시도 (가장 간단한 방법으로!)
   ```java
   class WordFilter {
-      private String [] words;
+      private String[] words;
   
       public WordFilter(String[] words) {
           this.words = words;
