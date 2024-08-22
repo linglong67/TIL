@@ -9,31 +9,31 @@
 ### 풀이 접근 방식
 - 이분탐색 방식 사용
   ```java
-    public int lengthOfLIS(int[] nums) {
-        if (nums == null || nums.length == 0) return 0;
+  public int lengthOfLIS(int[] nums) {
+      if (nums == null || nums.length == 0) return 0;
 
-        int size = 0;
-        int[] result = new int[nums.length];
+      int size = 0;
+      int[] result = new int[nums.length];
 
-        for (int num : nums) {
-            int left = 0;
-            int right = size;
+      for (int num : nums) {
+          int left = 0;
+          int right = size;
 
-            while (left < right) {
-                int mid = (left + right) / 2;
-                if (result[mid] < num) {
-                    left = mid + 1;
-                } else {
-                    right = mid;
-                }
-            }
+          while (left < right) {
+              int mid = (left + right) / 2;
+              if (result[mid] < num) {
+                  left = mid + 1;
+              } else {
+                  right = mid;
+              }
+          }
 
-            result[left] = num;
-            if (left == size) size++;
-        }
+          result[left] = num;
+          if (left == size) size++;
+      }
 
-        return size;
-    }
+      return size;
+  }
   ```
   - 직접 풀진 못해서 풀이를 참고함 → 조금 더 복잡하지만 시간 복잡도가 낮고 효율적인 방식
 - (그 외) 다른 사람 풀이
